@@ -18,8 +18,6 @@ function setup() {
 
     if (getItem('cards')!=null) cards = getItem('cards');
     else cards = [1,1,1,1,1,1];
-    // //createImg('cards/front/pea_front.png', '');
-    // for (let i = 0; i < cards.length; i++) cards[i].show();
     noLoop();
 }
 
